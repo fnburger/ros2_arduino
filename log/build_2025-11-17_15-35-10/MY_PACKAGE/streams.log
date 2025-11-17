@@ -1,0 +1,27 @@
+[1.029s] Invoking command in '/home/konsti/ros2_ws/src/mmi_ros2_packages/MY_PACKAGE': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/konsti/ros2_ws/build/MY_PACKAGE/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konsti/ros2_ws/install/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/MY_PACKAGE build --build-base /home/konsti/ros2_ws/build/MY_PACKAGE/build install --record /home/konsti/ros2_ws/build/MY_PACKAGE/install.log --single-version-externally-managed install_data
+[1.310s] running egg_info
+[1.327s] writing ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/PKG-INFO
+[1.332s] writing dependency_links to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/dependency_links.txt
+[1.332s] writing entry points to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/entry_points.txt
+[1.333s] writing requirements to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/requires.txt
+[1.333s] writing top-level names to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/top_level.txt
+[1.368s] reading manifest file '../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/SOURCES.txt'
+[1.369s] writing manifest file '../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/SOURCES.txt'
+[1.369s] running build
+[1.370s] running build_py
+[1.370s] copying MY_PACKAGE/cam_reader.py -> /home/konsti/ros2_ws/build/MY_PACKAGE/build/lib/MY_PACKAGE
+[1.371s] running install
+[1.379s] running install_lib
+[1.397s] copying /home/konsti/ros2_ws/build/MY_PACKAGE/build/lib/MY_PACKAGE/cam_reader.py -> /home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE
+[1.397s] byte-compiling /home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE/cam_reader.py to cam_reader.cpython-312.pyc
+[1.398s] running install_data
+[1.399s] copying package.xml -> /home/konsti/ros2_ws/install/share/MY_PACKAGE
+[1.399s] running install_egg_info
+[1.421s] removing '/home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE-0.0.0-py3.12.egg-info' (and everything under it)
+[1.421s] Copying ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info to /home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE-0.0.0-py3.12.egg-info
+[1.422s] running install_scripts
+[1.555s] Installing cam_reader script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+[1.560s] Installing publisher script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+[1.560s] Installing subscriber script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+[1.561s] writing list of installed files to '/home/konsti/ros2_ws/build/MY_PACKAGE/install.log'
+[1.602s] Invoked command in '/home/konsti/ros2_ws/src/mmi_ros2_packages/MY_PACKAGE' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/konsti/ros2_ws/build/MY_PACKAGE/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konsti/ros2_ws/install/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/MY_PACKAGE build --build-base /home/konsti/ros2_ws/build/MY_PACKAGE/build install --record /home/konsti/ros2_ws/build/MY_PACKAGE/install.log --single-version-externally-managed install_data

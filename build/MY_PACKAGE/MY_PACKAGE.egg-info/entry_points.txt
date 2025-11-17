@@ -1,0 +1,7 @@
+[console_scripts]
+cam_reader = MY_PACKAGE.cam_reader:main
+image_processor = MY_PACKAGE.image_processor:main
+image_processor_v2 = MY_PACKAGE.image_processor_v2:main
+microcontroller_communicator = MY_PACKAGE.microcontroller_communicator:main
+publisher = MY_PACKAGE.my_publisher:main
+subscriber = MY_PACKAGE.my_subscriber:main

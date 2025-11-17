@@ -1,0 +1,29 @@
+[1.164s] Invoking command in '/home/konsti/ros2_ws/src/mmi_ros2_packages/MY_PACKAGE': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/konsti/ros2_ws/build/MY_PACKAGE/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konsti/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/MY_PACKAGE build --build-base /home/konsti/ros2_ws/build/MY_PACKAGE/build install --record /home/konsti/ros2_ws/build/MY_PACKAGE/install.log --single-version-externally-managed install_data
+[1.553s] running egg_info
+[1.582s] writing ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/PKG-INFO
+[1.582s] writing dependency_links to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/dependency_links.txt
+[1.583s] writing entry points to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/entry_points.txt
+[1.583s] writing requirements to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/requires.txt
+[1.583s] writing top-level names to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/top_level.txt
+[1.645s] reading manifest file '../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/SOURCES.txt'
+[1.646s] writing manifest file '../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/SOURCES.txt'
+[1.646s] running build
+[1.646s] running build_py
+[1.647s] copying MY_PACKAGE/image_processor_v2.py -> /home/konsti/ros2_ws/build/MY_PACKAGE/build/lib/MY_PACKAGE
+[1.647s] running install
+[1.655s] running install_lib
+[1.684s] copying /home/konsti/ros2_ws/build/MY_PACKAGE/build/lib/MY_PACKAGE/image_processor_v2.py -> /home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE
+[1.685s] byte-compiling /home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE/image_processor_v2.py to image_processor_v2.cpython-312.pyc
+[1.687s] running install_data
+[1.687s] running install_egg_info
+[1.720s] removing '/home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE-0.0.0-py3.12.egg-info' (and everything under it)
+[1.720s] Copying ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info to /home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE-0.0.0-py3.12.egg-info
+[1.721s] running install_scripts
+[1.921s] Installing cam_reader script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+[1.922s] Installing image_processor script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+[1.922s] Installing image_processor_v2 script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+[1.922s] Installing microcontroller_communicator script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+[1.922s] Installing publisher script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+[1.922s] Installing subscriber script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+[1.923s] writing list of installed files to '/home/konsti/ros2_ws/build/MY_PACKAGE/install.log'
+[1.965s] Invoked command in '/home/konsti/ros2_ws/src/mmi_ros2_packages/MY_PACKAGE' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/konsti/ros2_ws/build/MY_PACKAGE/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/konsti/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/MY_PACKAGE build --build-base /home/konsti/ros2_ws/build/MY_PACKAGE/build install --record /home/konsti/ros2_ws/build/MY_PACKAGE/install.log --single-version-externally-managed install_data

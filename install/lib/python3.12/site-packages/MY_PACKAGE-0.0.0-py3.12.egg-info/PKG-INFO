@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: MY-PACKAGE
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: konsti
+Maintainer-email: konsti@todo.todo
+License: TODO: License declaration
+Provides-Extra: test

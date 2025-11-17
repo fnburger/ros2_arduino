@@ -1,0 +1,27 @@
+running egg_info
+writing ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/PKG-INFO
+writing dependency_links to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/dependency_links.txt
+writing entry points to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/entry_points.txt
+writing requirements to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/requires.txt
+writing top-level names to ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/top_level.txt
+reading manifest file '../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/SOURCES.txt'
+writing manifest file '../../../build/MY_PACKAGE/MY_PACKAGE.egg-info/SOURCES.txt'
+running build
+running build_py
+copying MY_PACKAGE/image_processor_v2.py -> /home/konsti/ros2_ws/build/MY_PACKAGE/build/lib/MY_PACKAGE
+running install
+running install_lib
+copying /home/konsti/ros2_ws/build/MY_PACKAGE/build/lib/MY_PACKAGE/image_processor_v2.py -> /home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE
+byte-compiling /home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE/image_processor_v2.py to image_processor_v2.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../../build/MY_PACKAGE/MY_PACKAGE.egg-info to /home/konsti/ros2_ws/install/lib/python3.12/site-packages/MY_PACKAGE-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cam_reader script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+Installing image_processor script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+Installing image_processor_v2 script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+Installing microcontroller_communicator script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+Installing publisher script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+Installing subscriber script to /home/konsti/ros2_ws/install/lib/MY_PACKAGE
+writing list of installed files to '/home/konsti/ros2_ws/build/MY_PACKAGE/install.log'
