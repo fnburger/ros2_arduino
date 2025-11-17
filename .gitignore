@@ -1,0 +1,77 @@
+# Build directories (colcon outputs)
+build/
+install/
+log/
+
+# Colcon metadata
+.colcon/
+
+# Source space (if you don't want to commit it; often you do for packages)
+# src/  # Uncomment if your repo is just the workspace skeleton
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:Encryptable
+ehthumbs_vista.db
+ehthumbs_vista_raw.db
+
+# ROS2 specific generated files
+*.msg  # If you generate them; usually commit interfaces
+*.srv
+*.action
+*.pb.*  # Protocol buffers if used
+*.log
+*.sqlite3  # History databases
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_target_run_dir/
+
+# Dependencies (if using vcpkg or similar)
+vcpkg_installed/
+!vcpkg.json
+!vcpkg-configuration.json
+
+# Generated binaries and libs
+*.a
+*.so
+*.o
+*.dll
+*.exe
+*.pdb
+*.lib
+*.exp
+*.ilk
+*.obj
+*.manifest
+*.res
+*.resources
