@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 import os
 
-class ImageProcessorV2(Node):  # Renamed class to match file
+class ImageProcessorV2(Node):
     def __init__(self):
         super().__init__('image_processor_v2')
         self.subscription = self.create_subscription(
@@ -55,7 +55,7 @@ class ImageProcessorV2(Node):  # Renamed class to match file
             # Face detected: Check for smile in each face ROI
             smile_detected = False
             for (x, y, w, h) in faces:
-                # Draw rectangle for viz (optional; remove if no rqt)
+                # Draw rectangle for viz
                 cv2.rectangle(cv_image, (x, y), (x+w, y+h), (255, 0, 0), 2)
                 # ROI for smile (whole face ROI, not just lower half—better detection)
                 roi_gray = gray[y:y+h, x:x+w]
@@ -64,7 +64,7 @@ class ImageProcessorV2(Node):  # Renamed class to match file
                     roi_gray, scaleFactor=1.7, minNeighbors=20, minSize=(25, 25))
                 if len(smiles) > 0:
                     smile_detected = True
-                    # Draw smile rect (optional)
+                    # Draw smile rect
                     for (sx, sy, sw, sh) in smiles:
                         cv2.rectangle(roi_color, (sx, sy), (sx+sw, sy+sh), (0, 255, 0), 2)
                     break  # One smile is enough

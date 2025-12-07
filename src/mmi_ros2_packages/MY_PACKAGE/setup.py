@@ -13,9 +13,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='konsti',
-    maintainer_email='konsti@todo.todo',
-    description='TODO: Package description',
+    maintainer='niklas',
+    maintainer_email='niklas.burger@tuwien.ac.at',
+    description='ROS arduino smile detector with LED indicator',
     license='TODO: License declaration',
     extras_require={
         'test': [
@@ -24,10 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'publisher = MY_PACKAGE.my_publisher:main',
-            'subscriber = MY_PACKAGE.my_subscriber:main',
             'cam_reader = MY_PACKAGE.cam_reader:main',
-            'image_processor = MY_PACKAGE.image_processor:main',
             'microcontroller_communicator = MY_PACKAGE.microcontroller_communicator:main',
             'image_processor_v2 = MY_PACKAGE.image_processor_v2:main'
         ],
